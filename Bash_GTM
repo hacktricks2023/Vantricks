@@ -1,0 +1,37 @@
+#!/bin/bash
+# Vantricks DNSTT Termux Script Installer
+#--------------------------------
+
+rm -rf install
+
+apt-get update
+apt-get install -y dnsutils nano
+
+wget --no-check-certificate -O ../usr/bin/menu https://raw.githubusercontent.com/Ysilven/termux-script/main/menu && chmod +x ../usr/bin/menu
+
+echo "Installation Completed."
+echo
+echo "Vantricks DNSTT Script v0.1.4.6"
+echo "https://phcorner.net/members/vantricks-14344/"
+echo
+echo "Vantricks-PHC"
+echo "press 'enter' to back and start query testing instantly."
+echo "type 'menu' to run the dnstt termux script."#!/bin/bash
+# Vantricks DNSTT Termux Script Installer
+#--------------------------------
+
+rm -rf install
+
+apt-get update
+apt-get install -y dnsutils nano
+
+wget --no-check-certificate -O ../usr/bin/menu https://raw.githubusercontent.com/Ysilven/termux-script/main/menu && chmod +x ../usr/bin/menu
+
+echo "Installation Completed."
+echo
+echo "Vantricks DNSTT Script v0.1.4.6"
+echo "https://phcorner.net/members/vantricks-14344/"
+echo
+echo "Vantricks-PHC"
+echo "press 'enter' to back and start query testing instantly."
+echo "type 'menu' to run the dnstt termux script."
